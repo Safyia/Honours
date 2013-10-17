@@ -9,3 +9,6 @@ Meeting minutes
   - http://nlp.stanford.edu/IR-book/
   - indexing of data
 - sentiment analysis
+- TODO
+  - research information retrieval
+  - create a gnatt diagram
