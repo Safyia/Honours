@@ -16,15 +16,17 @@ Honours Project
   - create a gnatt diagram
   
 ### 17.10.2013
+- gnatt chart
+  - https://www.tomsplanner.com/public/leahonours/
 - indexing of data
   - database tables
   - according to 3rd years's database module
 - research papers
   - credibility of papers
-  - quotations
+  - references of papers
 - TODO
   - find 5 papers about sentiment analysis and data indexing
-  - write quotations
+  - write references of papers
   - look at 1 paper in more detail 
   - write a short report from paper
   - identify deliverables
