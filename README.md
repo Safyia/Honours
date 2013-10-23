@@ -1,9 +1,9 @@
-Honours
+Honours Project
 =======
 
-Meeting minutes
+## Meeting minutes
 
-10.10.2013
+### 10.10.2013
 - goal of the project
   - analysis of existing data from twitter
   - dashboard for viewing various statistics
@@ -14,8 +14,8 @@ Meeting minutes
 - TODO
   - research information retrieval
   - create a gnatt diagram
-
-17.10.2013
+  
+### 17.10.2013
 - indexing of data
   - database tables
   - according to 3rd years's database module
@@ -27,3 +27,4 @@ Meeting minutes
   - write quotations
   - look at 1 paper in more detail 
   - write a short report from paper
+  - identify deliverables
