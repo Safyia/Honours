@@ -30,7 +30,6 @@ Honours Project
   - look at 1 paper in more detail 
   - write a short report from paper
   - identify deliverables
-  - 
   
 ### 25.10.2013
 - analysing sources
