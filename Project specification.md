@@ -60,3 +60,4 @@ Implement dashboard, statistics and additional features
 
 Final adjustments, debbuging and testing
 
+Bibliography
