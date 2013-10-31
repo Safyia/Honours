@@ -30,3 +30,15 @@ Honours Project
   - look at 1 paper in more detail 
   - write a short report from paper
   - identify deliverables
+  - 
+  
+### 25.10.2013
+- analysing sources
+- reviewing paper report
+- going through references
+  - hardvard referencing
+- discussing information retrieval
+- TODO
+  - interim deliverable 
+  - review another paper
+  - reading Sentiment Analysis and Opinion Mining
