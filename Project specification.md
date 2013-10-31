@@ -60,4 +60,7 @@ Implement dashboard, statistics and additional features
 
 Final adjustments, debbuging and testing
 
-Bibliography
+#Bibliography
+
+1. Nasuwaka, Tetsuya and Jeonghee Yi. *Sentiment Analysis: Capturing favorability using natural language processing. in Proceerings of the K-CAP-01, 2nd Intl. Conf, on Knowledge capture.* 2003
+2. Das, Sanjiv and Mike Chen. *Yahoo! for Amazon: Sentiment extraction from small talk on the web.* Management Science, 2007
