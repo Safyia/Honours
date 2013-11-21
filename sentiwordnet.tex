@@ -1,0 +1,66 @@
+\documentclass[a4paper,12pt]{article}
+
+\begin{document}
+
+  \section*{SentiWordNet}
+
+  \begin{description}
+    \item[WordNet] is a lexical database that groups English words into
+    synonym sets called synsets and provides short definitions, and records
+    semantic relations between the synonym sets.
+          
+    \item[SentiWordNet 1.0] is a lexical resource operating on top of WordNet
+    synsets, in which each synset $s$ is classified based on three numerical
+    scores $Neg(s)$, $Obj(s)$ and $Pos(s)$ specifying the synset's sentiment as
+    either negative, objective or positive.
+
+    \item[SentiWordNet 3.0] is newer, enhanced version of
+    \textbf{SentiWordNet 1.0}
+  \end{description}
+     
+  The method used to develop \textbf{SentiWordNet 1.0} relies on training a set
+  of ternary classifiers, that is capable of deciding whether synset is
+  positive, negative or objective. The ternary classifiers differs in the
+  training set and the learning device used for training, therefore producing
+  different classification results. Opinion-based scores for a synset are drawn
+  by normalized portion of ternary classifiers that have assigned the
+  corresponding label to it. If all ternary classifiers assign the same label to
+  a synset, the label will have the maximum score, otherwise each label will
+  have a score corresponding to number of assigned classifiers.
+
+  Ternary classifiers are generated using semi-supervised method, where only a
+  small subset $L \in Tr$ of the training data has been manually labeled. The
+  training data $U = Tr - L$ were left unlabelled as it is up to the process to
+  label them automatically using $L$ as an input, where
+  $L = L_n \cup L_o \cup L_p$ defining $L_n$, $L_o$, and $L_p$ as sets of
+  Negative, Objective and Positive synsets. $L_n$ and $L_p$ are small sets
+  defined by manually selecting deliberate synsets for 14 characteristic
+  positive and negative terms. $L_p$ and $L_n$ are then expanded in $K$
+  interations into the final training set $Tr_{p}^{K}$ and $Tr_{n}^{K}$.
+
+  \newpage
+
+  The main differences between \textbf{SentiWordNet 1.0} and its newer version
+  \textbf{SentiWordNet 3.0} are:
+  
+  \begin{itemize}
+    \item Version 3.0 consists of annotation of the newer \textbf{WordNet 3.0}
+    instead of the \textbf{WordNet 2.0}.
+
+    \item In 3.0 the result of this semi-supervised learning algorithm is only
+    an intermediate step of the annotation process. It is then fed to an
+    iterative random-walk process that is run to convergence.
+
+    \item The 3.0 version in both semi-supervised learning process and the
+    random-walk process uses manually disambiguated glosses from
+    \textbf{Princeton WordNet Gloss Corpus} which is assumed to be more accurate
+    than the ones from \textbf{ExtendedWordNet} used in version 1.0.
+  \end{itemize}
+
+  The semi-supervised learning step in \textbf{SentiWordNet 3.0} is identical
+  to the process used in \textbf{SentiWordNet 1.0}. In the random-walk step
+  \textbf{WordNet 3.0} is viewed as a graph that is randomly, iteratively
+  walked and values $Pos(s)$, $Neg(s)$ and $Obj(s)$ are expected to change
+  at each iteration. The random-walk process terminates when the iteration has
+  converged.
+\end{document}
